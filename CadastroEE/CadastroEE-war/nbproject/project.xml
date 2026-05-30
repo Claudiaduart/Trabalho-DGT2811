@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.j2ee.war</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/j2ee-warproject/3">
+            <name>CadastroEE-war</name>
+            <minimum-ant-version>1.6.5</minimum-ant-version>
+            <server-instance-id>gf</server-instance-id>
+            <j2ee-platform>1.8-web</j2ee-platform>
+            <web.docbase.dir>src/main/webapp</web.docbase.dir>
+            <src-roots>
+                <root id="src.dir"/>
+            </src-roots>
+            <test-roots/>
+        </data>
+    </configuration>
+</project>

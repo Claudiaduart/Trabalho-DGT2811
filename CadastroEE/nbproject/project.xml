@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.j2ee.earproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/j2ee-earproject/2">
+            <name>CadastroEE</name>
+            <minimum-ant-version>1.6.5</minimum-ant-version>
+            <server-instance-id>gf</server-instance-id>
+            <j2ee-platform>1.8-web</j2ee-platform>
+            <jar.compress>false</jar.compress>
+            <dist.dir>dist</dist.dir>
+            <javac.source>1.8</javac.source>
+            <javac.target>1.8</javac.target>
+            <javac.test.classpath/>
+            <resource.dir>setup</resource.dir>
+            <j2ee.platform.classpath/>
+            <subprojects>
+                <compilation-unit>
+                    <module-ref>
+                        <foreign-project>CadastroEE-ejb</foreign-project>
+                        <artifact type="j2ee" clean-target="clean" id="CadastroEE-ejb">${project.CadastroEE-ejb}/dist/CadastroEE-ejb.jar</artifact>
+                    </module-ref>
+                </compilation-unit>
+                <compilation-unit>
+                    <module-ref>
+                        <foreign-project>CadastroEE-war</foreign-project>
+                        <artifact type="j2ee" clean-target="clean" id="CadastroEE-war">${project.CadastroEE-war}/dist/CadastroEE-war.war</artifact>
+                    </module-ref>
+                </compilation-unit>
+            </subprojects>
+        </data>
+    </configuration>
+</project>
